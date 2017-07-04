@@ -1,3 +1,53 @@
 body {
-    background: green;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+ul {
+    
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    
+}
+.popular-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.space-list-item {
+    margin-bottom: 7px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.popular-rank {
+    margin: 20 px;
+    font-size: 20 px;
 }
